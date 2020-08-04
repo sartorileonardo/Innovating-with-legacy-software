@@ -9,7 +9,7 @@ package br.com.company.webservice.controller;
  * @author Lucas Fernando Frighetto
  */
 @Controller
-public class MyEntityController extends CadastroController {
+public class MyNewEntityController extends CadastroController {
 
     public List<Map<String, Object>> getAll(String filtro) throws WebServiceException {
         return getAll(this.getClass().getSimpleName(), filtro, true);
